@@ -75,7 +75,8 @@ cd frontend
 npm install     # first time
 npm start       # opens http://localhost:3000
 
-## **Backend**
+----------
+
 cd backend
 pip install -r requirements.txt
 python server.py   # or: uvicorn app:app --reload / node server.js

@@ -69,7 +69,7 @@ requirements.txt / package.json
 
 ## 🛠️ Run Locally (Dev)
 
-## **Frontend**
+## **Frontend & Backend**
 ```bash
 cd frontend
 npm install     # first time

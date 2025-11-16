@@ -267,7 +267,7 @@ export default function Dashboard() {
           </nav>
 
           <div className="h-9 w-9 rounded-full bg-gradient-to-tr from-indigo-400 to-purple-400 flex items-center justify-center text-white text-sm font-semibold">
-            P
+            Y
           </div>
         </div>
       </header>
@@ -277,7 +277,7 @@ export default function Dashboard() {
         {/* GREETING */}
         <div className="mb-6">
           <p className="text-xs uppercase tracking-[0.2em] text-slate-400 font-semibold">
-            Hello, Pooja
+            Hello, Y/N
           </p>
           <h1
             className="text-3xl md:text-4xl font-bold mt-2 text-slate-900"

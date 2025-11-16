@@ -51,34 +51,15 @@ requirements.txt / package.json
 
 ---
 
-## 🗃️ Data model (frontend shape)
-Stored at `localStorage.ai_budgets_data_v3`:
-
-```json
-{
-  "budgets": [
-    { "id": "b_groceries", "category": "Groceries", "monthly_limits": { "2025-11": 40000 } }
-  ],
-  "transactions": [
-    { "id": "t1", "date": "2025-11-02", "amount": -12000, "merchant": "SuperMart", "category": "Groceries", "notes": "" }
-  ],
-  "groups": [ ... ]
-}
-
 ## 🔎 Forecasting & AI (Summary)
 
-### **📈 Forecasting**
+**📈 Forecasting**
 - Uses **EWMA (Exponentially Weighted Moving Average)**  
 - Looks back over `monthsBack` (default **6–12 months**)  
-- Adjustable **alpha** (0.2–0.6) for sensitivity tuning  
+- Adjustable **alpha** (0.2–0.6) for sensitivity tuning
 
-### **📤 Outputs**
-- `perCategory.history`  
-- `perCategory.forecast`  
-- `total.history`  
-- `total.forecast`  
 
-### **🤖 AI Suggestions**
+**🤖 AI Suggestions**
 - Explainable heuristic engine  
 - Detects **overspend** / **underspend**  
 - Suggests **budget reallocations**  
@@ -88,13 +69,13 @@ Stored at `localStorage.ai_budgets_data_v3`:
 
 ## 🛠️ Run Locally (Dev)
 
-### **Frontend**
+## **Frontend**
 ```bash
 cd frontend
 npm install     # first time
 npm start       # opens http://localhost:3000
 
-### **Backend**
+## **Backend**
 cd backend
 pip install -r requirements.txt
 python server.py   # or: uvicorn app:app --reload / node server.js

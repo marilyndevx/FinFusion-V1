@@ -79,6 +79,6 @@ npm start       # opens http://localhost:3000
 
 cd backend
 pip install -r requirements.txt
-python server.py   # or: uvicorn app:app --reload / node server.js
+python server.py   # or: uvicorn app:app --reload / node server.js | or: uvicorn server:app --reload --port 5050 (mac)
 
 ---

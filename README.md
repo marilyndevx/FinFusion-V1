@@ -30,6 +30,22 @@ A React-based personal finance tracker with budgeting, group-expense management,
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](./screenshorts/dashboard.png)
+
+### Budgets Page
+![Budgets](./screenshorts/budgets.png)
+
+### Add Expense
+![Add Expense](./screenshorts/add-expense.png)
+
+### Group Expense
+![Group Expense](./screenshorts/group-expense.png)
+
+---
+
 ## 📁 Project structure (key files)
 /frontend
 /src
